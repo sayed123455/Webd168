@@ -7,15 +7,79 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Varela+Round"
     />
+    <style>
+      body {
+        background-color: rgb(119, 119, 132);
+        margin: 0;
+        padding: 20px;
+      }
+      p {
+        color: rgba(255, 255, 255, .6);
+        font-size: 1em;
+        font-family: "Varela Round", Arial, Helvetica, sans-serif;
+      }
+      h1,h2,h3,h4 {
+        color: rgba(255, 255, 255, .7);
+        font-family: arial, "palatino linotype", times, serif;
+        border-bottom: 2px solid rgba(17, 15, 15, 0.6);
+        padding-top: 10px;
+        padding-bottom: 5px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      #logo {
+        font-family: Baskervile, palatino, sans-serif;
+        font-style: italic;
+        font-size: 2em;
+        color: rgba(255, 255, 255, .9);
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(17, 15, 15, 0.6);
+        border-radius: 0, 0, 10px, 10px;
+        margin-bottom: 30px;
+      }
+      .note {
+        background-color: rgba(8, 105, 45, 0.2);
+        color: rgba(255, 255, 255, .9);
+        padding: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        margin-top: 25px;
+        margin-bottom: 35px;
+      }
+      .note strong {
+        color: rgba(226, 11, 11, 0.9);
+      }
+      article {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      h1+p {
+        font-size: 1.2em;
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 140%;
+      }
+      a[title="CSS Link"] {
+        color: rgba(11, 59, 18, 0.9);
+      }
+      article > h4 {
+        font-style: italic;
+      }
+      .Not-Me-heading {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.5em;
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <header>CSS: The Missing Manual</header>
+    <header><div id="logo">CSS: The Missing Manual</div></header>
 
     <article>
       <!-- The article element is intended to present an independent entry that could stand on its own. -->
       <h1>The Amazing World of CSS</h1>
       <p>
-        <strong><a href="/en-US/docs/Glossary/CSS">CSS</a></strong> (Cascading
+        <strong><a href="/en-US/docs/Glossary/CSS" title="CSS Link">CSS</a></strong> (Cascading
         Style Sheets) allows you to create great-looking web pages. Cascading
         Style Sheets (CSS) is a style sheet language used for describing the
         presentation of a document written in a markup language such as HTML.
@@ -37,7 +101,7 @@
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?
       </p>
-      <p>
+      <p class="note">
         <strong>NOTE:</strong> Ut enim ad minima veniam, quis nostrum
         exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
         commodi consequatur?
@@ -52,30 +116,22 @@
         rules for alternate formatting if the content is accessed on a mobile
         device.
       </p>
-      <p>
+      <p class="note">
         <strong>NOTE:</strong> Ut enim ad minima veniam, quis nostrum
         exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
         commodi consequatur?
       </p>
 
-      <h3>Not Me!</h3>
+      <h3 class="Not-Me-heading">Not Me!</h3>
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?
+        I'm becoming more confident using CSS to style webpages. At first, it was 
+        a little confusing, but working through this lesson helped me understand 
+        how powerful selectors can be. Chapter 3 of the book explained how the 
+        cascade and specificity rules work, which cleared up why some styles override 
+        others. Working through this helped me understand what is going and how to read
+        the css style.
       </p>
-
-      <h3>Me Neither!</h3>
+      <h4>Me Neither!</h4>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
