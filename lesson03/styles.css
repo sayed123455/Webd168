@@ -38,13 +38,13 @@ body {
     background: #fff url(./‫images/pose2.png) no-repeat center right/150px;
 }
 .card:nth-of-type(2) a {
-    background-color: green;
+    background-color: blue;
 }
 .card:nth-of-type(3) {
     background: #fff url(./‫images/pose3.png) no-repeat center right/150px;
 }
 .card:nth-of-type(3) a {
-    background-color: blue;
+    background-color: green;
 }
 .card a {
     font-size: 18px;
