@@ -21,40 +21,56 @@ body {
 
 /* Main container for the content section */
 section {
-    
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    max-width: 1200px; /* Set a maximum width for the section */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 2rem; /* Add padding around the section */
 }
 
 /* Styles for the aside (sidebar) element */
 aside {
-    
+    flex: 1 1 25%; /* Flex-grow, flex-shrink, and flex-basis for the aside */
+    background-color: #ededed; /* Light gray background for the aside */
+    padding: 1.25rem;
+    margin-left: 1rem;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add a subtle shadow */
 }
 
 aside p {
-    
+    font-style: italic; /* Italicize text in the aside */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Styles for the article element */
 article {
-    
+    flex: 1 1 65%; /* Flex-grow, flex-shrink, and flex-basis for the article */
 }
 
 /* Ensure images are responsive */
 img {
-    
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: left; /* Float images to the left */
+    padding-right: 1rem;
 }
 
 /* Heading styles */
 h1 {
-   
+   font-size: 2.5rem;
+   margin-bottom: 0.5rem;
 }
 
 h2 {
-    
+    font-size: 2rem;
 }
 
 /* Paragraph styles */
 p {
-   
+   margin-bottom: 1.5rem;
 }
 
 /* Media Queries */
@@ -64,16 +80,20 @@ p {
 
     /* Stack the aside and article elements vertically on small screens */
     section {
+        flex-direction: column; /* Change the direction to column */
     }
 
     /* Move aside to the bottom by changing its order */
     aside {
-       
+       flex: 1 1 100%; /* Make aside take full width */
+       margin-left: 0;
+       width: 80%;
+       padding: 1.5rem;
     }
 
     /* Make the article take up the full width */
     article {
-
+        flex: 1 1 100%; /* Make article take full width */
     }
 }
 
@@ -82,16 +102,16 @@ p {
 
     /* Decrease the font size of the main heading for smaller screens */
     h1 {
-
+        font-size: 2rem; /* Decrease font size */
     }
 
     /* Decrease the font size of subheadings for smaller screens */
     h2 {
-
+        font-size: 1.75rem; /* Decrease font size */
     }
 
     /* Decrease the font size of paragraphs for smaller screens */
     p {
-
+        font-size: 0.9rem; /* Decrease font size */
     }
 }
