@@ -13,3 +13,22 @@ caption {
         
     }
 }
+
+@media (max-width: 768px) { // heading slightly smaller on mobile
+    header h1 {
+      font-size: 2rem;
+    }
+}
+
+header .btn { // Button styles
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+  
+header .btn:hover {
+    transform: scale(1.05);
+}
+
+
+  
+  

@@ -12,4 +12,24 @@ caption {
     padding-bottom: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+
+header .btn {
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+header .btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
 /*# sourceMappingURL=custom.css.map */
