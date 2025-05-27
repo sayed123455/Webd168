@@ -10,14 +10,15 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
-    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
         <div class="container px-4">
-            <a class="navbar-brand" href="#page-top">WEBD168</a>
+            <a class="navbar-brand" href="#page-top">Ali Gull</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +29,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
+                        <a class="nav-link" href="#products">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -40,55 +41,50 @@
     <!-- Header-->
     <header class="bg-primary bg-gradient text-white">
         <div class="container px-4 text-center">
-            <h1 class="fw-bolder">Welcome to Scrolling Nav</h1>
+            <h1 class="fw-bolder">Welcome to my development journey</h1>
             <p class="lead">
-                A functional Bootstrap 5 boilerplate for one page scrolling websites
+                Computer Engineering Student passionate about turning ideas into code
             </p>
-            <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+            <a class="btn btn-lg btn-light" href="#about">View My Skills!</a>
         </div>
     </header>
     <!-- About section-->
-    <section id="about">
-        <div class="container px-4">
-            <div class="row gx-4 justify-content-center">
-                <div class="col-lg-8">
-                    <h2>About this page</h2>
-                    <p class="lead">
-                        This is a great place to talk about your webpage. This template is
-                        purposefully unstyled so you can use it as a boilerplate or
-                        starting point for you own landing page designs! This template
-                        features:
-                    </p>
-                    <ul>
-                        <li>Clickable nav links that smooth scroll to page sections</li>
-                        <li>
-                            Responsive behavior when clicking nav links perfect for a one
-                            page website
-                        </li>
-                        <li>
-                            Bootstrap's scrollspy feature which highlights which section of
-                            the page you're on in the navbar
-                        </li>
-                        <li>
-                            Minimal custom CSS so you are free to explore your own unique
-                            design options
-                        </li>
-                    </ul>
-                </div>
+    <!-- About section-->
+<section id="about">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2>About Me</h2>
+                <p class="lead">
+                    Hi, I'm Ali Gull! I’m currently studying computer engineering and teaching myself web development—figuring out HTML, CSS, and Bootstrap one project at a time.
+                </p>
+                <p>
+                    I like building simple, functional websites, even if I’m still learning how to make them look polished. When I’m not staring at code, I’m probably at the gym, procrastinating with video games, or simply just hanging out with friends.
+                </p>
+                <p>
+                    I’m not a pro yet, but I’m getting better every day. And that is what matters to me. I’m excited to keep learning and improving my skills in web development. If you have any tips or resources for a beginner like me, I’d love to hear them! Feel free to reach out through the contact form below.
+
+                </p>
+                <h3>My Skills:</h3>
+                <ul>
+                    <li>Front-end development (HTML, CSS)</li>
+                    <li>Back-end development (c/c++, java)</li>
+                    <li>Responsive design with Bootstrap framework</li>
+                    <li>User experience best practices</li>
+                    <li>Website optimization and performance</li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!-- Products section-->
     <section class="bg-light" id="products">
         <div class="container px-4">
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
-                    <h2>Products we offer</h2>
+                    <h2>Skill Level Rating</h2>
                     <p class="lead">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                        optio velit inventore, expedita quo laboriosam possimus ea
-                        consequatur vitae, doloribus consequuntur ex. Nemo assumenda
-                        laborum vel, labore ut velit dignissimos.
+                        These are the programming languages I work with most often and the ones I feel most comfortable with. I’m always looking to improve my skills, so I’m open to learning new languages and frameworks as well. The star ratings show my current confidence level with each.
                     </p>
                 </div>
             </div>
@@ -96,66 +92,99 @@
         <div class="container px-4">
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
-                    <table class="table table-responsive inventory">
-                        <caption>
-                            Table 1: Current Inventory
+                    <table class="table table-responsive table-striped table-bordered inventory">
+                        <caption class="text-end">
+                            Table 1: Skill Profeciency Ratings
                         </caption>
-                        <thead class="text-uppercase">
+                        <thead class="text-uppercase table-dark">
                             <tr scope="row">
                                 <th scope="col">Product</th>
-                                <th scope="col">Price</th>
                                 <th scope="col">Rating</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Vitae Quam Lorem</td>
-                                <td>$19.95</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>In Tempus Velit</td>
-                                <td>$14.55</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Lorem Ipsum Dolor Sat</td>
-                                <td>Priceless</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Quis Felis Fringilla</td>
-                                <td>$29.95</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Nunc Sem Pharetra</td>
-                                <td>$75.99</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Vel Faucibus Elit</td>
-                                <td>$82.00</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Non Adipiscing Vitae</td>
-                                <td>$1.95</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Aenean Orci Ante</td>
-                                <td>$17.95</td>
-                                <td class="rating"></td>
-                            </tr>
-                            <tr>
-                                <td>Venenatis Non Adipiscing</td>
-                                <td>$44.00</td>
+                                <td>C</td>
                                 <td class="rating">
                                     <i class="bi bi-star-fill text-primary"></i><i
                                         class="bi bi-star-fill text-primary"></i><i
                                         class="bi bi-star-fill text-primary"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>C++</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JAVA</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill"></i><i 
+                                        class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill"></i><i 
+                                        class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Phyton</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i 
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Assembly</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i 
+                                        class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Venenatis Non Adipiscing</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i
+                                        class="bi bi-star-fill text-primary"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill">
+                                    </i>
                                 </td>
                             </tr>
                         </tbody>
@@ -253,7 +282,7 @@
     <footer class="py-5 bg-dark">
         <div class="container px-4">
             <p class="m-0 text-center text-white">
-                Copyright &copy; Your Website 2022
+                Copyright &copy; Ali Gull 2022
             </p>
         </div>
     </footer>
