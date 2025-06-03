@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Gull - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Ali.</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Ali Gull</h1>
+            <h3>Full Stack Developer</h3>
+            <p>I build exceptional digital experiences that are fast, accessible, and visually appealing. Let's create something amazing together!</p>
+            <div class="btn-box">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Let's talk</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image.jpg" alt="Ali Gull">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>With over 2 years of experience in web development, I specialize in creating responsive, user-friendly websites and applications. My expertise spans both frontend and backend technologies, allowing me to build complete solutions from concept to deployment.</p>
+            
+            <div class="skills">
+                <h3>My Skills</h3>
+                <div class="skill-container">
+                    <div class="skill">
+                        <span class="skill-name">C++/C</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Assembly</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Associate's in Computer Science</h4>
+                    <p>San Diego Miramar College, 2023-2025</p>
+                </div>
+                <div class="education-item">
+                    <h4>Bachelor's in Computer Engineering</h4>
+                    <p>UC San Diego, 2025-2027</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <form action="#" method="POST">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="tel" placeholder="Phone Number">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject">
+                    <i class="fas fa-tag"></i>
+                </div>
+            </div>
+            
+            <div class="textarea-field">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <i class="fas fa-comment-dots"></i>
+            </div>
+            
+            <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+        
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info-content">
+                    <h4>Location</h4>
+                    <p>San diego</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div class="info-content">
+                    <h4>Email</h4>
+                    <p>sayedxxxxx7@gmail.com</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div class="info-content">
+                    <h4>Phone</h4>
+                    <p>(858)-xxx-xxxx</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Ali Gull | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
